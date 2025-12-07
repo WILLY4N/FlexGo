@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/header_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_2_bold"
+        android:text="@string/app_name"
+        android:textColor="@color/blue_variant_light"
+        android:textSize="50sp"
+        android:shadowColor="@color/green_secondary_light"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLogo"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintStart_toStartOf="@+id/imageViewLogo" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo_flexgo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tag_line_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_2_bold"
+        android:text="@string/tag_line"
+        android:textColor="@color/blue_primary_light"
+        android:textSize="22sp"
+        android:shadowColor="@color/green_secondary_light"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewLogo"
+        app:layout_constraintStart_toStartOf="@+id/imageViewLogo"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

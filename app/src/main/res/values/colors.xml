@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores Base para o Tema CLARO (Light) -->
+    <color name="blue_primary_light">#1976D2</color>
+    <color name="blue_variant_light">#0D47A1</color>
+    <color name="green_secondary_light">#00897B</color>
+    <color name="background_light">#E3F2FD</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="on_secondary_light">#FFFFFF</color>
+    <color name="on_background_surface_light">#000000</color>
+
+    <!-- Cores Base para o Tema ESCURO (Dark) -->
+    <color name="blue_primary_dark">#90CAF9</color>
+    <color name="blue_variant_dark">#90CAF9</color>
+    <color name="green_secondary_dark">#80CBC4</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="on_primary_dark">#000000</color>
+    <color name="on_secondary_dark">#000000</color>
+    <color name="on_background_surface_dark">#FFFFFF</color>
+
+    <!-- Cores Universais -->
+    <color name="error_color">#B00020</color>
+    <color name="on_error_color">#FFFFFF</color>
+
+    <!-- Cores do Legado -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

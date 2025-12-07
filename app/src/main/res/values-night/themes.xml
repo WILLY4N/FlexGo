@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FlexGo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/blue_variant_dark</item>
+        <item name="colorOnPrimary">@color/on_primary_dark</item>
+
+        <!-- Cores Secundárias da Marca -->
+        <item name="colorSecondary">@color/green_secondary_dark</item>
+        <item name="colorSecondaryVariant">@color/green_secondary_dark</item>
+        <item name="colorOnSecondary">@color/on_secondary_dark</item>
+
+        <!-- Cores de Fundo e Superfícies -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnBackground">@color/on_background_surface_dark</item>
+        <item name="colorOnSurface">@color/on_background_surface_dark</item>
+
+        <!-- Cor de Erro -->
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/on_error_color</item>
+
+        <!-- Barra de status -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>
+
+        <item name="roundedTextViewBackground">@color/blue_primary_dark</item>
+        <item name="roundedTextViewTextColor">@color/on_primary_dark</item>
+
+        <item name="iconTint">@color/on_background_surface_dark</item>
+
+    </style>
+</resources>

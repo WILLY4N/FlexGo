@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vehicles">
+        <item>Volkswagen Voyage (ABC-1A34)</item>
+        <item>Peugeot 207 Passion (DEF-2B45)</item>
+        <item>Honda PCX (GHI-3C56)</item>
+        <item>Royal Enfield Himalayan (JKL-4D67)</item>
+    </string-array>
+</resources>

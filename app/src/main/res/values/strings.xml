@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FlexGo</string>
+    <string name="tag_line">Economia e tanque cheio!</string>
+    <string name="list_vehicles">Selecione um veículo</string>
+    <string name="vehicles_search">Buscar veículo</string>
+    <string name="hint_list_vehicles">Selecione</string>
+    <string name="flexgo_top_app_bar">FlexGo - Calculadora de Combustível</string>
+    <string name="average_consumption">Consumo Médio</string>
+    <string name="fuel_price">Preço do Combustível</string>
+    <string name="road_consumption">Consumo Estrada</string>
+    <string name="ethanol_km_l">Etanol Km/L</string>
+    <string name="gasoline_km_l">Gasolina Km/L</string>
+    <string name="ethanol_price">Etanol (R$/L)</string>
+    <string name="gasoline_price">Gasolina (R$/L)</string>
+    <string name="clear_ethanol_price">Limpar Preço Etanol</string>
+    <string name="clear_gasoline_price">Limpar Preço Gasolina</string>
+    <string name="calculate">Calcular</string>
+    <string name="clear">Limpar</string>
+</resources>
